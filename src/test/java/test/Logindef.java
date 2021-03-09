@@ -53,7 +53,7 @@ WebDriver driver;
         WebElement Phn_no = driver.findElement(By.xpath("//input[@id='mobile']"));
         Phn_no.sendKeys(phoneno);
         
-        WebElement Login_btn = driver.findElement(By.xpath("//input[@type='submit']"));
+        WebElement Login_btn = driver.findElement(By.xpath("//*[@class='a-ayg']"));
         Login_btn.click();
     	
     }
